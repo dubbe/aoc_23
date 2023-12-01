@@ -24,7 +24,6 @@ func getSolutionPart1(input string) int {
 		numbers := re.FindAllString(r, -1)
 
 		sum, _ := strconv.Atoi(fmt.Sprintf("%s%s", numbers[0], numbers[len(numbers)-1]))
-		fmt.Println(sum)
 		result = result + sum
 	}
 	return result
