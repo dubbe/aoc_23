@@ -34,15 +34,15 @@ func TestHasAdjacent(t *testing.T) {
 	}
 }
 
-// func TestAOC_getSolutionPart1Correct(t *testing.T) {
-// 	expectedSolution := int64(550934)
-// 	actualSolution := getSolutionPart1(input)
-// 	assert.Equal(t, expectedSolution, actualSolution)
-// }
+func TestAOC_getSolutionPart1Correct(t *testing.T) {
+	expectedSolution := int64(550934)
+	actualSolution := getSolutionPart1(input)
+	assert.Equal(t, expectedSolution, actualSolution)
+}
 
 
 func TestAOC_getSolutionPart2(t *testing.T) {
-	expectedSolution := 0
+	expectedSolution := int64(467835)
 	actualSolution := getSolutionPart2(testinput)
 	assert.Equal(t, expectedSolution, actualSolution)
 }
