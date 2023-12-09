@@ -128,7 +128,6 @@ func lcmMultiple(numbers []uint64) uint64 {
 		fmt.Printf("LCM of %v is %d", numbers, lcmnum)
 		return uint64(lcmnum)
 	}
-	return uint64(0)
 }
 
 func lcm(a, b int64) int64 {
